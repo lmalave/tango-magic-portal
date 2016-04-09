@@ -13,9 +13,16 @@ public class DebugOutput : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		DebugTextMesh.text = "Position: " + transform.position;
-		if (transform.position.z >= 1) {
-			Application.LoadLevel("VRScene");
+		Vector3 cameraXZ = new Vector3 (transform.position.x, 0, transform.position.z);
+		string text = "cam pos: " + cameraXZ;
+		foreach(GameObject door in GameObject.FindGameObjectsWithTag("door"))
+		{
+			Vector3 doorXZ = new Vector3 (door.transform.position.x, 0,door.transform.position.z);
+			text = text + ", door pos: " + doorXZ;
+			if (Vector3.Distance(cameraXZ, doorXZ) < 0.5) {
+				Application.LoadLevel("VRScene");
+			}
 		}
+		DebugTextMesh.text = "Position: " + text;
 	}
 }

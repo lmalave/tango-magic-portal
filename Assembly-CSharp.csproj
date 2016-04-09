@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DBFE5C67-C3ED-5253-F095-CA05FDB46F12}</ProjectGuid>
+    <ProjectGuid>{6B6E8699-58B1-9BC3-12E6-DE3B9C839659}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\DebugOutput.cs" />
      <Compile Include="Assets\Google-Unity\Scripts\AndroidHelper.cs" />
      <Compile Include="Assets\Google-Unity\Scripts\AndroidLifecycle.cs" />
      <Compile Include="Assets\Rustic doors\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
@@ -196,6 +197,8 @@
      <Compile Include="Assets\TangoSDK\TangoUX\Scripts\Interfaces\ITangoUX.cs" />
      <Compile Include="Assets\TangoSDK\TangoUX\Scripts\Listeners\UxExceptionEventListener.cs" />
      <Compile Include="Assets\TangoSDK\TangoUX\Scripts\TangoUx.cs" />
+     <Compile Include="Assets\TransitionManager.cs" />
+     <Compile Include="Assets\TriggerHandler.cs" />
      <None Include="Assets\Plugins\Android\UnityUxHelper\AndroidManifest.xml" />
      <None Include="Assets\Rustic doors\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Rustic doors\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
@@ -314,7 +317,7 @@
      <None Include="Assets\Rustic doors\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\Rustic doors\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>/Users/lmalave/git/TangoHackaton/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>/Users/lmalave/git/tango-magic-portal/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -325,7 +328,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{9E12202B-2B39-51BA-81F8-EDA1BB73F683}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{EFE3126F-DB9D-8233-09D8-66C9E4E2BE83}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

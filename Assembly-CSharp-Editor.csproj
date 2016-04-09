@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E8296BCE-8B5F-B19F-321C-50D4BAFBB0F4}</ProjectGuid>
+    <ProjectGuid>{BB3E05C8-C7D3-0CEB-5961-6BDB8EFE413E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -180,10 +180,10 @@
      <None Include="Assets\Rustic doors\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\Rustic doors\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>/Users/lmalave/git/TangoHackaton/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>/Users/lmalave/git/tango-magic-portal/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="Assembly-UnityScript">
- <HintPath>/Users/lmalave/git/TangoHackaton/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>/Users/lmalave/git/tango-magic-portal/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -227,9 +227,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{9E12202B-2B39-51BA-81F8-EDA1BB73F683}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{EFE3126F-DB9D-8233-09D8-66C9E4E2BE83}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{DBFE5C67-C3ED-5253-F095-CA05FDB46F12}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{6B6E8699-58B1-9BC3-12E6-DE3B9C839659}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
