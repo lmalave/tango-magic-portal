@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{DF1E5E64-9BAB-3CD8-ACBD-5096255D2F37}") = "tango-magic-portal", "Assembly-CSharp-firstpass.csproj", "{EFE3126F-DB9D-8233-09D8-66C9E4E2BE83}"
+EndProject
+Project("{DF1E5E64-9BAB-3CD8-ACBD-5096255D2F37}") = "tango-magic-portal", "Assembly-CSharp.csproj", "{6B6E8699-58B1-9BC3-12E6-DE3B9C839659}"
+EndProject
+Project("{DF1E5E64-9BAB-3CD8-ACBD-5096255D2F37}") = "tango-magic-portal", "Assembly-CSharp-Editor.csproj", "{BB3E05C8-C7D3-0CEB-5961-6BDB8EFE413E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFE3126F-DB9D-8233-09D8-66C9E4E2BE83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE3126F-DB9D-8233-09D8-66C9E4E2BE83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFE3126F-DB9D-8233-09D8-66C9E4E2BE83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFE3126F-DB9D-8233-09D8-66C9E4E2BE83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B6E8699-58B1-9BC3-12E6-DE3B9C839659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B6E8699-58B1-9BC3-12E6-DE3B9C839659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B6E8699-58B1-9BC3-12E6-DE3B9C839659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B6E8699-58B1-9BC3-12E6-DE3B9C839659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB3E05C8-C7D3-0CEB-5961-6BDB8EFE413E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB3E05C8-C7D3-0CEB-5961-6BDB8EFE413E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB3E05C8-C7D3-0CEB-5961-6BDB8EFE413E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB3E05C8-C7D3-0CEB-5961-6BDB8EFE413E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
