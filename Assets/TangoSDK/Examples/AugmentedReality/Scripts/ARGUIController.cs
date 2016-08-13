@@ -62,6 +62,8 @@ public class ARGUIController : MonoBehaviour, ITangoLifecycle, ITangoDepth
     /// The marker prefab to place on taps.
     /// </summary>
     public GameObject m_prefabMarker;
+	public bool reversePrefabMarkerOrientation;
+	public float prefabMarkerScale;
 
     /// <summary>
     /// The touch effect to place on taps.
@@ -540,8 +542,12 @@ public class ARGUIController : MonoBehaviour, ITangoLifecycle, ITangoDepth
             // floating point error in it.
             forward = Vector3.Cross(up, cam.transform.right);
         }
+		if (reversePrefabMarkerOrientation) {
+			forward = -forward;
+		}
 
-        Instantiate(m_prefabMarker, planeCenter, Quaternion.LookRotation(forward, up));
+		GameObject newMarker = (GameObject) Instantiate(m_prefabMarker, planeCenter, Quaternion.LookRotation(forward, up));
+		newMarker.transform.localScale = new Vector3 (prefabMarkerScale, prefabMarkerScale, prefabMarkerScale);
         m_selectedMarker = null;
     }
 }
